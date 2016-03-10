@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="Sqlite4Leveldb"
+                   displayName="Sqlite4Leveldb"
+                   projectFiles="true"
+                   root="../../Desktop/Sqlite4Leveldb">
+      <logicalFolder name="src" displayName="src" projectFiles="true">
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/alter.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/analyze.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/attach.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/auth.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/bt.h</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/btInt.h</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/bt_lock.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/bt_log.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/bt_main.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/bt_pager.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/bt_unix.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/bt_varint.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/build.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/c.h</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/callback.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/complete.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/ctime.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/date.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/delete.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/env.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/expr.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/fault.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/fkey.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/fts5.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/fts5func.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/func.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/global.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/hash.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/hash.h</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/insert.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/kv.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/kv.h</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/kvbt.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/kvldb.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/kvldb.h</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/kvlsm.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/kvmem.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/legacy.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/lsm.h</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/lsmInt.h</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/lsm_ckpt.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/lsm_file.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/lsm_log.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/lsm_main.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/lsm_mem.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/lsm_mutex.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/lsm_shared.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/lsm_sorted.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/lsm_str.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/lsm_tree.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/lsm_unix.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/lsm_varint.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/main.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/malloc.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/math.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/mem.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/mem0.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/mem2.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/mem3.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/mem5.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/mutex.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/mutex.h</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/mutex_noop.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/mutex_unix.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/mutex_w32.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/os.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/os.h</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/pragma.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/prepare.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/printf.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/random.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/resolve.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/rowset.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/select.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/sqliteInt.h</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/sqliteLimit.h</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/status.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/tokenize.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/trigger.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/update.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/utf.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/util.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/varint.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/vdbe.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/vdbe.h</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/vdbeInt.h</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/vdbeapi.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/vdbeaux.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/vdbecodec.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/vdbecursor.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/vdbemem.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/vdbetrace.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/walker.c</itemPath>
+        <itemPath>../../Desktop/Sqlite4Leveldb/src/where.c</itemPath>
+      </logicalFolder>
+      <itemPath>../../Desktop/Sqlite4Leveldb/keywordhash.h</itemPath>
+      <itemPath>../../Desktop/Sqlite4Leveldb/opcodes.c</itemPath>
+      <itemPath>../../Desktop/Sqlite4Leveldb/opcodes.h</itemPath>
+      <itemPath>../../Desktop/Sqlite4Leveldb/parse.c</itemPath>
+      <itemPath>../../Desktop/Sqlite4Leveldb/parse.h</itemPath>
+      <itemPath>../../Desktop/Sqlite4Leveldb/parse.y</itemPath>
+      <itemPath>../../Desktop/Sqlite4Leveldb/sqlite4.h</itemPath>
+    </logicalFolder>
+    <df root="." name="0">
+      <df name="src">
+        <in>SchemaLoader.cc</in>
+      </df>
+      <df name="test">
+        <in>TestLoader.cc</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0"
+                 commonFlags="-mtune=generic -march=x86-64 -g -O2 -fPIC -fstack-protector"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>testLoader.exe</executablePath>
+          <ccTool>
+            <incDir>
+              <pElem>.</pElem>
+            </incDir>
+          </ccTool>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="../../Desktop/Sqlite4Leveldb/opcodes.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/parse.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/alter.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/analyze.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/attach.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/auth.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/bt_lock.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/bt_log.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/bt_main.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/bt_pager.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/bt_unix.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/bt_varint.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/build.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/callback.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/complete.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/ctime.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/date.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/delete.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/env.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/expr.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/fault.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/fkey.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/fts5.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/fts5func.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/func.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/global.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/hash.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/insert.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/kv.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/kvbt.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/kvldb.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/kvlsm.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/kvmem.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/legacy.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/lsm_ckpt.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/lsm_file.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/lsm_log.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/lsm_main.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/lsm_mem.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/lsm_mutex.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/lsm_shared.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/lsm_sorted.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/lsm_str.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/lsm_tree.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/lsm_unix.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/lsm_varint.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/main.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/malloc.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/math.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/mem.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/mem0.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/mem2.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/mem3.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/mem5.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/mutex.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/mutex_noop.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/mutex_unix.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/mutex_w32.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/os.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/pragma.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/prepare.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/printf.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/random.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/resolve.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/rowset.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/select.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/status.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/tokenize.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/trigger.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/update.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/utf.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/util.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/varint.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/vdbe.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/vdbeapi.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/vdbeaux.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/vdbecodec.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/vdbecursor.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/vdbemem.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/vdbetrace.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/walker.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../Desktop/Sqlite4Leveldb/src/where.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../../Desktop/Sqlite4Leveldb/src</pElem>
+            <pElem>../../Desktop/Sqlite4Leveldb</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="src/SchemaLoader.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="test/TestLoader.cc" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
