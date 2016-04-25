@@ -11,7 +11,11 @@
         <in>SchemaLoader.cc</in>
         <in>SchemaLoader.h</in>
       </df>
+      <df name="tablesSchema">
+      </df>
       <df name="test">
+        <df name="result">
+        </df>
         <in>TestLoader.cc</in>
       </df>
     </df>

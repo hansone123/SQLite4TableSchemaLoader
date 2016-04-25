@@ -16,6 +16,7 @@
 #include <sqlite4.h>
 #include <cstdio>
 #include <vector>
+#include <fstream>
 
 using namespace std;
 
@@ -28,6 +29,7 @@ static int callback2(void *data, int argc, sqlite4_value **argv,const  char **az
 static bool getTablesName(sqlite4 *db, vector<string> *tables_name);
 static bool getTablesID(sqlite4 *db, vector<string> *tables_id);
 static bool getTableSchema(sqlite4 *db, string tableName, vector<string> *tables_name);
+static bool putSchemaToFile(string directoryPath, string id,string name,vector<string> *table_schema);
 
 int main(int argc, char* argv[])
 {
@@ -35,10 +37,18 @@ int main(int argc, char* argv[])
    char *zErrMsg = 0;
    int rc;
    
-   const char* data = "Callback function called";
-
+   const char* databasePath;
+   const char* directoryPath;
+   if (argc == 3) {
+       databasePath = argv[1];
+       directoryPath = argv[2];
+   }
+   else {
+       cout<<"Need two parameter: (first)databasePath  (second) output directoryPath"<<endl;
+       return 0;
+   }
    /* Open database */
-   rc = sqlite4_open(0,"/tmp/SSTFiles/testdb", &db);
+   rc = sqlite4_open(0,databasePath, &db);
    if( rc ){
       fprintf(stderr, "Can't open database: %s\n", sqlite4_errmsg(db));
       exit(0);
@@ -58,16 +68,20 @@ int main(int argc, char* argv[])
    getTablesID(db, tables_id);
    cout<<endl;
    
-   /* Get table schema*/
-   
-   
+   /* Get table schema and put to file*/
    for (int i=0; i<tables_name->size(); i++) {
-       vector<string> *tables_schema = new vector<string>();
-       string name = (*tables_name)[i];       
-       getTableSchema(db, name, tables_schema);
        
-       delete tables_schema;       
+       vector<string> *table_schema = new vector<string>();
+       string name = (*tables_name)[i];       
+       getTableSchema(db, name, table_schema);
+       cout<<name<<"'s schema:"<<endl;
+        for (int j=0; j<table_schema->size(); j++) {
+            cout<<(*table_schema)[j]<<endl;
+        }
+       putSchemaToFile(directoryPath, (*tables_id)[i], name, table_schema);
+       delete table_schema;       
    }
+   
    
    sqlite4_close(db, 0);
    
@@ -117,13 +131,23 @@ static bool getTableSchema(sqlite4 *db, string tableName, vector<string> *tableS
       fprintf(stderr, "SQL error: %s\n", zErrMsg);
       return false;
    }
-   cout<<tableName<<"'s schema:"<<endl;
-   for (int i=0; i<tableSchema->size(); i++) {
-       cout<<(*tableSchema)[i]<<endl;
-   }
-   
-   
    return true;
+}
+static bool putSchemaToFile(string path, string id,string name,vector<string> *table_schema) {
+    string filePath = path + "//" + id;
+    fstream file;
+    file.open(filePath.c_str(),ios::out);
+    if(!file) {
+        cout<<filePath<<" create failes"<<endl;
+        return false;
+    }
+    file<<id<<endl;
+    file<<name<<endl;
+    for (int i=0; i<table_schema->size(); i++) {
+        file<<(*table_schema)[i]<<endl;
+    }
+    
+    return true;
 }
 static void showArray(char* str, int length) {
     for (int i=0; i<length; i++)
@@ -157,7 +181,7 @@ static int callback2(void *data, int argc, sqlite4_value **argv,const  char **az
             temp.append(value);
         }
         if ( i == 2 ) {
-            temp.append(" ");
+            temp.append(",");
             temp.append(value);
         }
     }
